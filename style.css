@@ -339,8 +339,9 @@ h5 {
 }
 @media screen and (max-width: 742px){
     .main-container{
-        height: 620px;
+        height: 620px;   
     }
+
     .overlay{
         height: 620px;
     }
@@ -384,6 +385,20 @@ h5 {
         width: 80vw;
     }
     .large{
-        width: 80vw;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .coverup{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .middle{
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
